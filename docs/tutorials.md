@@ -53,7 +53,7 @@ Now you can proceed with the installation of `psycopg2`.
 
 And install `tutoPypi`:
 
-    (tutopypi)$pip install tutopypi
+    (tutopypi)$pip install tutoPypi
 
 You are ready to use the library.
 
@@ -64,9 +64,12 @@ Este es el resumen
 
 Importar la librería
 
-    import tutoPypi
+    from tutoPypi import main
 
 Ejecutar el programa
 
-    tutoPypi.main()
+    main.main()
+
+Resultado:
+    203.35
 
